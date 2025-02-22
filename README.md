@@ -1,2 +1,2 @@
 # capslock-led
-Linux kernel module that blinks the Caps Lock LED at a set interval using a timer. Great for learning basic device driver concepts
+Linux kernel module that blinks the Caps Lock LED at a set interval using a delay. Great for learning basic device driver concepts
