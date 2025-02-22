@@ -10,6 +10,9 @@
 #define BLINK_COUNT 10   /* Number of LED blinks */
 #define DELAY 500        /* Delay for LED ON/OFF in milliseconds */
 
+#undef pr_fmt
+#define pr_fmt(fmt) "%s :" fmt,__func__
+
 static struct work_struct capsled_work;  /* Workqueue task */
 
 /* Function to control LED */
